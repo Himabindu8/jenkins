@@ -1,11 +1,8 @@
-Jenkinsfile (Declarative Pipeline)
-pipeline {
-    agent { docker { image 'python:3.5.1' } }
-    stages {
-        stage('build') {
-            steps {
-                bat 'python --version'
-            }
-        }
+import java.io.*;
+class Jenkinsfile
+{
+    public static void main(String args[])
+    {
+     System.out.println("Hello world");   
     }
 }
